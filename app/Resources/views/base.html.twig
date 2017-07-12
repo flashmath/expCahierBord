@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Expires" content="Mon, 26 Jul 1997 05:00:00 GMT">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Content-Type" content="text/html"; charset=utf-8" />
+        <title>{% block title %}ExpertApplication Cahier de Bord{% endblock %} - ExpApp</title>
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        {% block stylesheets %}
+            <link href='http://fonts.googleapis.com/css?family=Irish+Grover' rel='stylesheet' type='text/css'>
+            <link href='http://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
+
+        {% endblock %}
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        {% block scripts %}
+
+        {% endblock %}
+
+    </head>
+    <body {% block classbody %}{% endblock %}>
+    {% block body %}
+
+    {% endblock %}
+
+    {% block javascripts %}{% endblock %}
+    </body>
+</html>
